@@ -1,6 +1,6 @@
 /* Check to see if all characters in a given string are unique */
 
-package ArraysAndStrings;
+package com.brandonmanson.algorithms;
 
 import java.util.ArrayList;
 
@@ -12,7 +12,7 @@ public class IsUnique {
 		this.string = string;
 	}
 	
-	public boolean checkCharacters(String string) {
+	public boolean checkCharacters() {
 		ArrayList<String> splitString = new ArrayList<String>();
 		if(string.length() > 1)
 		{
